@@ -7,6 +7,6 @@ class FormularioContacto(forms.Form):
 
     email=forms.CharField(label="EmailNombre", required=True)
 
-    contenido=forms.CharField(label="Contenido")
+    contenido=forms.CharField(label="Contenido", widget=forms.Textarea)
 
 
